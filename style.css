@@ -1,0 +1,21 @@
+#verbs-container{
+    margin: 0 35%;
+}
+.verbs-answer{
+    display: block;
+}
+.right-answer, .right-answer:hover{
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+.wrongAnswer, .wrongAnswer:hover{
+    background-color: #b33030;
+    border-color: #b33030;
+    color: white;
+}
+#next{
+    margin-top: 8erm;
+    cursor: pointer;
+    color: green;
+}
