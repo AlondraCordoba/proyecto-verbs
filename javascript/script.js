@@ -96,7 +96,7 @@ function ponerVerbo() {
 
   let randomPosition = everyNumberOfVerbs[lastPosition];
   let imgText = "<img src='assets/img/"+verbs[randomPosition]+".jpg'";
-  imgText += "height:'140px' width='100px'>";
+  imgText += "height:'200px' width='160px'>";
 
   first.classList.add("btn","btn-outline-dark","btn-md");
   second.classList.add("btn","btn-outline-dark","btn-md");
@@ -123,8 +123,7 @@ function ponerVerbo() {
   }else{
     verbsCounter.innerHTML = "0 / " + numberOfVerbs;
     allRightCounter.innerHTML = "Right answers: " + rightAnswersCounter;
-    showVerb.innerHTML = "Thank you !";
+    showVerb.innerHTML = "Thank you!";
     verbsContainer.innerHTML = "";
   }
 }
-
